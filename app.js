@@ -200,7 +200,7 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         }
         if (zeros === 0) {
-            resultDisplay.innerHTML = "You LOSE!"
+            resultDisplay.innerHTML = "Negro de mierda no sirves ni para un juego."
             document.removeEventListener("keydown", control)
             setTimeout(clear, 3000)
         }
